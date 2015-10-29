@@ -25,9 +25,9 @@ end
 chris = Instructor.new("Chris")
 christina = Student.new("Christina")
 
+#call teach on student instance returns undefined method error
 
-# def greeting
-# 	puts "Hi, my name is #{first_name}."
-# end
+
+
 
 
