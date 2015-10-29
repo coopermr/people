@@ -15,3 +15,8 @@ class Instructor < Person
 		puts "Everything in Ruby is an Object."
 	end
 end
+
+def greeting
+	puts "Hi, my name is #{first_name}."
+	super
+end
