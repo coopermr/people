@@ -1,7 +1,13 @@
 class Person
+	attr_reader :first_name
 	def initialize(first_name)
-		@first_name
+		@first_name = first_name
 	end
+
+	def greeting
+	puts "Hi, my name is #{first_name}."
+end
+
 end
 
 class Student < Person
@@ -16,7 +22,12 @@ class Instructor < Person
 	end
 end
 
-def greeting
-	puts "Hi, my name is #{first_name}."
-	super
-end
+chris = Instructor.new("Chris")
+
+
+
+# def greeting
+# 	puts "Hi, my name is #{first_name}."
+# end
+
+
